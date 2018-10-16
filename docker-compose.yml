@@ -1,0 +1,16 @@
+version : '3'
+services:
+    img1:
+        ports:
+        - "8081:80"
+        image: "momurrayreward/readfile"
+
+    img2:
+        ports:
+        - "8082:80"
+        image: "momurrayreward/readfile"
+
+    img2:
+        ports:
+        - "8080:80"
+        image: "momurrayreward/readfile"
