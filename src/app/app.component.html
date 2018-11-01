@@ -1,6 +1,10 @@
 <div class="ui-fluid">
     <p-fileUpload name="myfile[]" customUpload="true" (uploadHandler)="myUploader($event)"></p-fileUpload>
 
+    <!-- <div *ngIf="rows.length > 0">
+        <button pButton type="button" label="Clear Grid" (click)="clearGrid()"></button>
+    </div> -->
+
     <div *ngIf="rows.length > 0">
         <p-table [value]="rows">
             <ng-template pTemplate="header">

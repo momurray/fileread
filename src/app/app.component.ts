@@ -45,6 +45,10 @@ export class AppComponent {
             }
             self.rows = temp;
         }
+    }
 
+    clearGrid(){
+        this.cols=[];
+        this.rows = [];
     }
 }
